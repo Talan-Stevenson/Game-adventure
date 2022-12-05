@@ -1,0 +1,447 @@
+import math
+import time
+import os
+from replit import audio
+
+def clear_console():
+    os.system('clear')
+
+def diolog():
+  p('       ')
+  p('dialog')
+  
+def comp():
+  p('Press Enter'
+    ' to continue')
+def options():
+  p('')
+  p('What would you like to say')
+def Menu():
+  if 
+
+
+
+#Public
+PHP=0
+MaxHP=0
+PATK=0
+PDEF=0
+LVL=0
+MaxMana=10
+Mana=10 
+EXP=0
+HPRaise=0
+ATKRaise=0
+DEFRaise=0
+Flee=0
+ManaRaise=0
+Class=0
+Dead=0
+Reunited=0
+Heal=0
+SacrTrue=0
+MGCDN1=0
+Monst1=0
+MagiChest2=0
+FinalBoss=0
+FB=0
+Complete=0
+p=print;P=print
+CC=clear_console
+Player=0
+Mit=0
+Gold=0
+Taco=0
+Room=0
+
+
+while Player==0:
+  p('Welcom to Eldemerū')#start screen
+  p('Start: 1')
+  p('Lore: 2 ')
+  p('About: 3 ')
+  Player=int(input( ))
+
+  
+  if Player!=1 and Player!=2 and Player!=3:
+    p('Not an option please try again')
+    Player=0
+    time.sleep(.5)
+    CC()
+    
+  if Player==3:
+    p('This is a small game I made for a class')
+    
+  if Player==2:
+    p('Magic')
+  
+  if Player==1:
+    CC()
+
+  
+while Class==0:#Class selection 
+  p('What class would you like to play as')
+  p('Assassin:1 - Theif:2 -')
+  p('Solider:3 - Knight:4 -')
+  p('Wizzard:5')
+  Class=int(input())
+
+  if Class!=1 and Class!=2 and Class!=3 and Class!=4 and Class!=5     and Class!=111111:
+    p('Thats not an option try again!')
+    Class=0
+    time.sleep(1)
+    CC()
+  
+  if Class==1:
+      MaxHP=15
+      PHP=15
+      PATK=6
+      PDEF=3
+      Gold=40
+      print(" Assassin Class!\n\nYour Current Stats Are::")
+      print("\nHealth: " , PHP)
+      print("Mana: " , Mana)
+      print("Attack: " , PATK)
+      print("Defense: " , PDEF)
+      HPRaise=2
+      ATKRaise=3
+      DEFRaise=2
+      ManaRaise=1
+      input('Confirm: Y/N: ')
+  if input == 'Y':
+    p('Starting...')
+    p('Loading')
+    time.sleep(3)
+    
+  if Class==2 :
+    MaxHP=15
+    PHP=15
+    PATK=5
+    PDEF=4
+    Gold=50
+    p('Theif Class! Current stats:')
+    print("\nHealth: " , PHP)
+    print("Mana: " , Mana)
+    print("Attack: " , PATK)
+    print("Defense: " , PDEF)
+    HPRaise=4
+    ATKRaise=3
+    DEFRaise=2
+    ManaRaise=1
+    input('Confirm: Y/N')
+  if input == 'Y':
+    p('Starting...')
+    p('Loading')
+    time.sleep(3)
+  
+  if Class==3:
+    MaxHP=15
+    PHP=15
+    PATK=6
+    PDEF=7
+    Gold=25
+    p('Soilder Class! Current stats:')
+    print("\nHealth: " , PHP)
+    print("Mana: " , Mana)
+    print("Attack: " , PATK)
+    print("Defense: " , PDEF)
+    HPRaise=2
+    ATKRaise=3
+    DEFRaise=3
+    ManaRaise=1
+    input('Confirm: Y/N: ')
+  if input == 'Y':
+    p('Starting...')
+    p('Loading')
+    time.sleep(3)
+  
+  if Class==4:
+    MaxHP=14
+    PHP=14
+    PATK=7
+    PDEF=7
+    Gold=30
+    p('Knight Class! Current stats:')
+    print("\nHealth: " , PHP)
+    print("Mana: " , Mana)
+    print("Attack: " , PATK)
+    print("Defense: " , PDEF)
+    HPRaise=2
+    ATKRaise=3
+    DEFRaise=2
+    ManaRaise=1
+    input('Confirm: Y/N: ')
+  if input == 'Y':
+    p('Starting...')
+    p('Loading')
+    time.sleep(3)
+  
+  if Class == 5:
+    MaxHP=15
+    PHP=15
+    PATK=6
+    PDEF=5
+    Gold=20
+    p('Wizzard Class! Current stats')
+    print("\nHealth: " , PHP)
+    print("Mana: " , Mana)
+    print("Attack: " , PATK)
+    print("Defense: " , PDEF)
+    HPRaise=2
+    ATKRaise=3
+    DEFRaise=2
+    ManaRaise=4
+    input('Confirm: Y/N: ')
+    if input == 'Y':
+      p('Starting...')
+      p('Loading')
+      time.sleep(3)
+    
+  if Class == 111111:
+    MaxHp=20
+    PHP=20
+    PATK=10
+    PDEF=11
+    Gold=300
+    p('Dovahkiin! Welcome back. Current Skill Tree')
+    print("\nHealth: " , PHP)
+    print("Mana: " , Mana)
+    print("Attack: " , PATK)
+    print("Defense: " , PDEF)
+    HPRaise=5
+    ATKRaise=4
+    DEFRaise=5
+    ManaRaise=5
+    Con=input('Confirm: Y/N: ')
+    if Con == 'Y':
+      p('Starting...')
+      p('Loading...')
+      time.sleep(3)
+    elif Con == 'N':
+      Class=0
+      CC()
+      p('Not a class')
+      time.sleep(1)
+      CC()
+
+
+CC()
+p('Please turn on caps lock. Thank you')
+time.sleep(2)
+CC()
+p("The cold air is crisp and sweet, you walk into a small town. This is a small town that makes its living from timber.")
+
+p('You make your way to the in. You walk up the steps, Off to your left there is a man sitting on a bench')
+
+p('The man gestures for you to come closer.')
+p('    ')
+p('Do you want to talk to the man Y/N')
+Player=input('')
+CC()
+if Player=='Y':
+  p('You walk closer to the man. he pulls himself to his feet and')
+  p('The man grabs your arm, He opens your palm and places a Mit in your  hand.')
+  p('Do you execept the Mit?')
+  p('Y/N:')
+  Player=input('')
+  if Player=='Y':
+    p("He doesn't say a word, He turns back to the wall lays back onto the wall and gestures for you to leave.")
+    p('You walk back to the door and enter the inn.')
+    p('Loading the inn...')
+    time.sleep(4)
+    Mit=1
+    CC()
+  if Player=='N':
+    p('You hand the coin back to the man. He grabs the coin from you and throws it through the open window.')
+    p('He grogles in a diffrent langue and pushes the lower part of your leg.')
+    p('You walk back to the door and enter the inn.')
+    p('Loading the inn')
+    comp()
+    time.sleep(4)
+    Mit=0
+    CC()
+        
+      
+    
+    
+    
+elif Player=='No':
+  p('You enter the inn')
+  time.sleep(1)
+  CC()
+
+p('The inside of the inn was cozy, A man was fiddling with a string instrument, A woman was taking orders at tables in the far corners by the windows, And a man behind the counter cleaning drinking glasses')
+p('')
+p('What would you like to do.')
+p('Talk to the musition: 1')
+p('Talk to the woman: 2')
+p('Talk to the man at the counter: 3')
+TVIN=int(input())
+CC()
+if TVIN==1 and Class!=111111:
+  p("You walk up to the he sits and scoffs at the instrument")
+  p('Dialog')
+
+  p('1: Why arent you playing?')
+  p('2: Are you from around here?')
+  p('3: I have a request to make.')
+  p('4: I have to go now.')
+  MD=int(input())
+  CC()
+  if MD == 1:#input hi ih 
+    p('Musition: Its broken, its a special instrument and needs a Mit to fix it.')
+    diolog()
+    p('1: Whats a mit?')
+    p('2: Why dont you have a Mit?')
+    p('3: Anything I can do to help?')
+    p('4: I have to go now.')
+    RE=int(input( ))#input hi hi
+    if RE==1:
+      p('Musition: Its a tool, obiusly, get out of here. stop bugging the talent')
+      p('The Musition scoffs, grabs his things and walks to his rented room.')
+      comp()
+      input('')
+      CC()
+      
+      p('What would you like to do?')
+      p('Talk to the woman: 1')
+      p('Talk to the man at the counter: 2')
+      TN=int(input( ))#input hi hi
+      if TN==1:
+        TVIN=2
+        CC()
+      if TN==2:
+        TVIN=3
+        CC()
+
+    if RE==2:
+      p('Musition: Lost it when I came into town, Cant get another one for a while most likely. Ill hve to make a trip to Shrēpå.')
+
+
+    if RE==3:
+      p('')
+
+    if RE==4:
+      p('  ')
+    
+  if MD==2:
+      p('Musition: ')    
+
+        
+  if MD==3:
+    p('Musition: ')
+  
+        
+  if MD==4:
+    p('Musition:')
+        
+        
+
+if TVIN==1 and Class == 111111:
+    p("You walk up to the man as he's finishing a song")
+    diolog()
+    options()
+    p('')
+if TVIN==2:
+  p("Hello ma'am ")
+  
+if TVIN==3:
+  #DIolog with counter man
+  CC()
+  p('Shop keep: Heya what brings you in stranger?')
+  diolog()
+  options()
+  #CM
+  p('1: Im looking for work, got any jobs?')
+  p('2: I need a place to stay, any rooms avliable?')
+  p('3: Just passing through.')
+  p('4: Nevermind, bye.')
+  CM=int(input())
+  if CM==1:
+    p('Shop keep: Well I dont have any jobs here, but the Adventures guild has some good work.')
+    diolog()
+    options()
+    p('1: Yeah ill go check it out. (Leave the tavern)')
+    p('2: Ehh not into guilds, dont like the paper trail.')
+    p('3: Any perks if I join.')
+    p('4: I best be going.')
+    AD=int(input())
+    if AD==1:
+      p('Shop keeper: Tell them Buffy sent you.')
+      sleep.time(2.5)
+      CC()
+      p('As you walk though the town, you notice many people have boreded up windows, trashed houses. people dont have it easy in this town.')
+      comp()
+      p("It's been a couple of days since you left the Small town, probably only a qauter of a days walk.")
+      options()
+      p('')
+      p
+
+  #if 
+  
+  if CM==2:#room selectkon
+    while Taco==0:
+      CC()
+      p('Shop keep: Yeah we got some rooms, which one would you like.')
+      options()
+      p('1: Basic room (5 Gold)')
+      p('2: Nice room (15 Gold)')
+      p('3: Fancy room (30 Gold)')
+      Room=int(input())
+      if Room==1:
+        p('Are you sure you want this room? ')
+        o=input('Y/N: ')
+        if o =='Y' or input=='y':
+          CC()
+          source = audio.play_file('Coin.mp3')
+          time.sleep(3)
+          Gold=Gold-5
+          P(Gold)
+          p('Shop keep: Down the stairs room 3.')
+          p('Shop keep: Before you go i need a name for my records.')
+          Taco=1
+          Name=input('')
+          p(Name)
+          p('is this your name?'); input('Y/N')
+          if input=="Y":
+            p('Shop keep: Perfect. Have a great stay.')
+        else:
+          Taco=0
+      if Room==2:
+        p('Are you sure you want this room.')
+        o=input('Y/N: ')
+        if o =='Y' or input=='y':
+          CC()
+          source = audio.play_file('Coin.mp3')
+          time.sleep(3)
+          Taco=1
+          Gold=Gold-15
+          p(Gold)
+          p('Shop keep: Have a Great stay your room 9 this floor. Enjoy!')
+          p('Shop keep: Before you go i need a name for my records.')
+          Taco=1
+          Name=input('')
+          p(Name)
+          p('is this your name?'); input('Y/N')
+          if input=="Y":
+            p('Shop keep: Perfect. Have a great stay.')
+            
+        else:
+          Taco=0
+      if Room==3:
+        p('Are you sure you want this room.')
+        o=input('Y/N: ')
+        if o =='Y' or input=='y':
+          CC()
+          source = audio.play_file('Coin.mp3')
+          time.sleep(3)
+          Taco=1
+          Gold=Gold-30
+          p(Gold)
+        
+        if o=='no' or input=='No':
+          Taco=0
+        
+        
+  if CM== 3:
+    p('')
